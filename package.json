@@ -11,7 +11,11 @@
 		"Other"
 	],
 	"activationEvents": [
-		"*"
+		"onCommand:HookyQR.minify",
+		"onCommand:HookyQR.minifyDir",
+		"onLanguage:javascript",
+		"onLanguage:html",
+		"onLanguage:css"
 	],
 	"icon": "icon.png",
 	"galleryBanner": {
