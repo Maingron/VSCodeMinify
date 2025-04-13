@@ -37,7 +37,6 @@
 		"type": "git",
 		"url": "https://github.com/Maingron/VSCodeMinify.git"
 	},
-	
 	"bugs": {
 		"url": "https://github.com/Maingron/VSCodeMinify/issues"
 	},
@@ -687,13 +686,14 @@
 			}
 		}
 	},
-	"devDependencies": {
-		"vscode": "~1.1.37"
-	},
 	"license": "MIT",
 	"dependencies": {
-		"terser": "^5.27.0",
 		"clean-css": ">=3.4.19",
-		"html-minifier": ">=3.0.3"
+		"html-minifier": ">=3.0.3",
+		"terser": "^5.27.0"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.85.0",
+		"@vscode/test-electron": "^2.5.2"
 	}
 }
