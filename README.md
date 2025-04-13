@@ -1,6 +1,5 @@
 # minify for VS Code
-
-[![Build Status](https://api.travis-ci.org/HookyQR/VSCodeMinify.svg?branch=master)](https://travis-ci.org/HookyQR/VSCodeMinify)
+(Fork of https://github.com/HookyQR/VSCodeMinify)
 
 Minify your js, css and html files to save transmit bandwidth. Calls each of the minifiers directly, allowing settings to be passed:
 * **JS:** [uglify-js](http://lisperator.net/uglifyjs) v2.7.4

@@ -2,7 +2,7 @@
 	"name": "minify",
 	"displayName": "Minify",
 	"description": "Minify for VS Code.\nMinify with command, and (optionally) re-minify on save.",
-	"version": "0.8.0",
+	"version": "0.8.0-dev",
 	"publisher": "Maingron",
 	"engines": {
 		"vscode": "^1.85.0"
@@ -15,8 +15,27 @@
 	],
 	"icon": "icon.png",
 	"galleryBanner": {
-		"color": "#e8e030",
+		"color": "#eedd00",
 		"theme": "light"
+	},
+	"homepage": "https://github.com/Maingron/VSCodeMinify",
+	"keywords": [
+		"minify",
+		"uglify",
+		"compress",
+		"css",
+		"html",
+		"javascript",
+		"js",
+		"vscode"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Maingron/VSCodeMinify.git"
+	},
+	
+	"bugs": {
+		"url": "https://github.com/Maingron/VSCodeMinify/issues"
 	},
 	"main": "./extension",
 	"contributes": {
@@ -672,12 +691,5 @@
 		"terser": "^5.27.0",
 		"clean-css": ">=3.4.19",
 		"html-minifier": ">=3.0.3"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/HookyQR/VSCodeMinify"
-	},
-	"bugs": {
-		"url": "https://github.com/HookyQR/VSCodeMinify/issues"
 	}
 }
