@@ -1,6 +1,8 @@
 # minify for VS Code
 (Fork of https://github.com/HookyQR/VSCodeMinify)
 
+Current Discussion and poll about the future of this extension / fork: https://github.com/Maingron/VSCodeMinify/discussions/11
+
 Minify your js, css and html files to save transmit bandwidth. Calls each of the minifiers directly, allowing settings to be passed:
 * **JS:** [uglify-js](http://lisperator.net/uglifyjs) v2.7.4
 * **CSS:** [clean-css](https://github.com/jakubpawlowicz/clean-css) v3.4.21
