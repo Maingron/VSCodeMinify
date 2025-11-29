@@ -1,9 +1,7 @@
-# minify for VS Code
-(Fork of https://github.com/HookyQR/VSCodeMinify)
+# VSCode Minify 2
+Continuation of https://github.com/HookyQR/VSCodeMinify
 
-Current Discussion and poll about the future of this extension / fork: https://github.com/Maingron/VSCodeMinify/discussions/11
-
-Minify your js, css and html files to save transmit bandwidth. Calls each of the minifiers directly, allowing settings to be passed:
+Minify your JS, CSS and HTML files on the fly to save Internet bandwidth. Calls each of the minifiers directly, allowing settings to be passed:
 * **JS:** [uglify-js](http://lisperator.net/uglifyjs) v2.7.4
 * **CSS:** [clean-css](https://github.com/jakubpawlowicz/clean-css) v3.4.21
 * **HTML:** [html-minifier](http://kangax.github.io/html-minifier/) v3.2.2
@@ -12,9 +10,9 @@ Minify your js, css and html files to save transmit bandwidth. Calls each of the
 
 Run the file minifier with **F1** `Minify`.
 
-Folders containing Javascript and CSS file can be minified to a single file (to `{dirname}.min.[css|js]`) with **F1** `Minify Directory`. It is acceptable to have a single directory minified for both Javascript and CSS.
+Folders containing JavaScript and CSS files can be minified into a single file (to `{dirname}.min.[css|js]`) with **F1** `Minify Directory`. It is acceptable to have a single directory minified for both JavaScript and CSS.
 
-Optionally runs minify on save when a matching minified file (and/or directory) already exists. Enalbe in your user or workspace settings. The setting defaults are shown below:
+Optionally runs **minify on save** if a matching minified file (and/or directory) already exists. Can be enabled in your user or workspace settings. The setting defaults are shown below:
 
 ```json
 "minify.minifyExistingOnSave": false,
