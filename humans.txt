@@ -1,0 +1,20 @@
+/* PROJECT */
+    GitHub: https://github.com/Maingron/VSCodeMinify
+    Type: Extension
+    For: https://code.visualstudio.com/
+
+/* PROJECT ORIGIN */
+    GitHub: https://github.com/HookyQR/VSCodeMinify
+    Status: Inactive
+
+/* TEAM */
+    Name: Maingron (Robin)
+    GitHub: https://github.com/Maingron
+    Website: https://maingron.com
+
+/* CONTRIBUTORS */
+    Name: HookyQR
+    GitHub: https://github.com/HookyQR
+
+    
+
