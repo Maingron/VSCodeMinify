@@ -2,6 +2,10 @@
     GitHub: https://github.com/Maingron/VSCodeMinify
     Type: Extension
     For: https://code.visualstudio.com/
+    For: https://github.com/microsoft/vscode
+    For: https://vscodium.com/
+    For: https://github.com/VSCodium/vscodium
+
 
 /* PROJECT ORIGIN */
     GitHub: https://github.com/HookyQR/VSCodeMinify
@@ -15,6 +19,12 @@
 /* CONTRIBUTORS */
     Name: HookyQR
     GitHub: https://github.com/HookyQR
+
+    Name: Patrick Nolin 
+    GitHub: https://github.com/pnolin
+
+    Name: Stephen Ullom
+    GitHub: https://github.com/stephen-ullom
 
     
 
